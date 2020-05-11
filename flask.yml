@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flaskapp
+spec:
+  selector:
+    matchLabels:
+      app: flask-web-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: flask-web-app
+    spec:
+      containers:
+      - name: flaskapp
+        image: alxst/flaskapp:flask
+        ports:
+        - containerPort: 8080
