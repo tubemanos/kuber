@@ -55,8 +55,10 @@ Get the URL
 Useful links:
 
 https://rtfm.co.ua/kubernetes-zapusk-gravl-v-minikube/
+
 https://habr.com/ru/company/flant/blog/333470/
 
+https://kubernetes.io/ru/docs/reference/kubectl/cheatsheet/
 
 
 
