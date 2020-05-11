@@ -2,15 +2,11 @@
 
 build docker 
 
-    docker build -t alxst/flaskapp:tagname:flask .
+    docker build -t alxst/flaskapp:flask .
 
 push to dockerhub
 
-    docker build -t alxst/flaskapp:tagname:flask
-
-docker run from dockerhub
-
-    docker run --rm --name web -p 8080:8080 alxst/flaskapp:flask
+    docker push -t alxst/flaskapp:flask
 
 
 Run background docker from dockerhub
@@ -53,6 +49,13 @@ Checking
 Get the URL
 
     minikube service flaskapp --url
+
+
+
+Useful links:
+
+https://rtfm.co.ua/kubernetes-zapusk-gravl-v-minikube/
+https://habr.com/ru/company/flant/blog/333470/
 
 
 
