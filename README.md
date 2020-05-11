@@ -60,6 +60,8 @@ https://habr.com/ru/company/flant/blog/333470/
 
 https://kubernetes.io/ru/docs/reference/kubectl/cheatsheet/
 
+https://eax.me/kubernetes/
+
 
 
 
