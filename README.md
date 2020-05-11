@@ -13,3 +13,10 @@ docker run from dockerhub
     docker run --rm --name web -p 8080:8080 alxst/flaskapp:flask
 
 
+Run background docker from dockerhub
+
+    docker run --rm --name web -p 8080:8080 alxst/flaskapp:flask
+
+stop docker
+
+    docker stop web
