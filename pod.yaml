@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: flaskapp0pod
+  labels:
+    app: flaskapp
+spec:
+  containers:
+    - name: flaskapp
+      image: alxst/flaskapp:flask
+      ports:
+        - containerPort: 8080
