@@ -1,16 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flaskapp
+  name: flaskapp-deployment
+  labels:
+   app: flaskapp
 spec:
+  replicas: 2
   selector:
     matchLabels:
-      app: flask-web-app
-  replicas: 1
+      app: flaskapp
   template:
     metadata:
       labels:
-        app: flask-web-app
+        app: flaskapp
     spec:
       containers:
       - name: flaskapp
