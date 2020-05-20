@@ -51,6 +51,16 @@ Get the URL
     minikube service flaskapp --url
 
 
+HELM
+
+Install Chart
+
+helm install test1 ./chart --set service.type=NodePort
+
+Uninstall Chart
+
+helm install test1 
+
 
 Useful links:
 
